@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Amigo secreto</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1><text>Amigo secreto</text></h1>
-    <br>
-    <img src="amigo-secreto.png" alt="">
-    <h1><text>Digite o Nome dos amigos</text></h1>
-    <br>
-    <input type="text" placeholder="digite um nome">
-    <input type="submit" value="adicionar">
-    <br>
-    <input type="submit" value="sortear amigos">
-    <br>    
-
+    <div id="tudo">
+        <p><h1>Amigo secreto</h1></p>
+        <img src="amigo-secreto (2).png" alt="">
+        <p><h2>Digite o nome dos amigos</h2></p>
+        <input type="text" placeholder="Digite um nome" id="nome">
+        <input type="submit" value="Adicionar nome" id="Adicionar">
+        <ul id="lista"></ul>
+        <br>
+        <ul id="lista">
+             <li id="linha"></li>
+       </ul>
+        <button>🐒Sortear</button>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
